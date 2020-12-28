@@ -3,8 +3,6 @@ import React from 'react';
 import './card.styles.css';
 
 export const Card = (props) => (
-  //   console.log(props);
-  //   return (
   <div className="card-container">
     <img
       alt="monster"
@@ -14,5 +12,4 @@ export const Card = (props) => (
     <h2>{props.monster.name}</h2>
     <p>{props.monster.email}</p>
   </div>
-  //   );
 );
